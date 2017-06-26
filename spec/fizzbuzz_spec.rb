@@ -12,4 +12,8 @@ describe 'fizzbuzz' do
   it 'returns "fizzbuzz" when passed 15' do 
     expect(fizzbuzz(15)).to eq 'fizzbuzz'
   end 
+  
+  it 'returns given number when the number is not 3, 5 or 15' do 
+    expect(fizzbuzz(4)).to eq 4
+  end
 end 
